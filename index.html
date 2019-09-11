@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Todo Application</title>
+     <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+     <div id="container">
+         <div class="controls">
+             <h1>My Todo List</h1>
+            <p ></p>
+             <input type="text" id="input" ><br>
+             <button type="button" id="add">Add todo</button>
+             <button type="button" id="remove">Remove Todo</button><br>
+            <button type="button" id="removeAll">Remove All Todo</button>
+         </div>
+         <ul id="list">
+             <li class="mycheck"><input type="checkbox" name="" id="check"><label >Go to Gym</label></li>
+             <li class="mycheck">
+                 <input type="checkbox"  id="check" checked>
+                 <label>Share Video</label>
+             </li>
+            <li class="mycheck">
+                <input type="checkbox" id="check" checked>
+                <label>Record video</label>
+            </li>
+            <li class="mycheck">
+                <input type="checkbox" id="check" checked>
+                <label>Eat Food</label>
+            </li>
+            <li class="mycheck">
+                <input type="checkbox" id="check" checked>
+                <label>Study CN</label>
+            </li>
+         </ul>
+     </div>
+    <script src="todo.js"></script>
+ </body>
+ </html>
